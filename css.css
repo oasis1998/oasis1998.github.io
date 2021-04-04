@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	background-color: black;
+}
+@font-face {
+font-family: "Valorant"; 
+src: url("../fonts/Valorant.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
+
+.v_logo {
+	width: 3vw;
+	top: 1vw;
+	left: 1vw;
+	position: absolute;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.mouse-parralax_background {
+	width: 30vw;
+	position: absolute;
+	left: 15vw;
+	top: 15vh;
+	position: absolute;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.v_text {
+	font-family: 'Valorant';
+	color: white;
+	position: absolute;
+}
+.mouse-parralax_content {
+	font-family: 'Valorant';
+	color: white;
+	position: absolute;
+}
+
+.v_text_head {
+	font-family: 'Valorant';
+	color: white;
+	position: absolute;
+	transition: 0.5s;
+}
+
+.v_text_head:hover {
+	margin-top: 3.5vh;
+	transition: 0.5s;
+	cursor: pointer
+}
+
+.bio_text {
+	font-family: 'Montserrat';
+	width: 50vw;
+	font-size: 2vw;
+	position: absolute;
+	color: white;
+	top: 100vh;
+	left: 37vw;
+}
+
+.potentia_small_img {
+	position: absolute;
+	width: 73vh;
+	top: 103vh;
+	left: 2vw;
+}
+
+header {
+	position: absolute;
+	width: 100vw;
+	height: 10vh;
+	transition: 0.2s;
+}
+
+header.sticky {
+	position: absolute;
+	background-color: gray;
+	transition: 0.2s;
+	width: 100vw;
+	height: 10vh;
+	opacity: 30%;
+}
+
+.under-header {
+	width: 98.9vw;
+	height: 15vh;
+	position: absolute;
+	top: 705vh;
+	background-color: #212121;
+}
